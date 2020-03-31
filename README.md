@@ -18,9 +18,9 @@ The following datasets were used to create the analytics database:
 
 ### Data Model
 The data model consists of tables `immigration`, `us_cities_demographics`, `airport_codes`, `world_temperature`, `i94cit_res`, `i94port`, `i94mode`, `i94addr`, `i94visa`
-![src](IMGS/)
+![ERD](IMG/ERD.jpg)
 ### Data Pipeline
-![src](IMGS/dag.png)
+![DAG](IMG/dag.png)
 
 ## Setup
 1. Python3 & Java 8 Required
@@ -70,6 +70,8 @@ The data model consists of tables `immigration`, `us_cities_demographics`, `airp
 2. Access Airflow UI at `localhost:8080`
 3. Create Airflow Connections:
     * AWS connection:
+    ![AWS](aws_credentials.png)
     * Redshift connection
+    ![redshift](redshift.png)
     
 4. Run `etl_dag` in Airflow UI
