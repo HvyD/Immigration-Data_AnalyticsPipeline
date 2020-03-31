@@ -1,0 +1,11 @@
+jupyter
+ipykernel
+pandas
+matplotlib
+seaborn
+pyspark
+psycopg2
+boto3
+apache-airflow
+sqlalchemy
+
