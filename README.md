@@ -70,8 +70,8 @@ The data model consists of tables `immigration`, `us_cities_demographics`, `airp
 2. Access Airflow UI at `localhost:8080`
 3. Create Airflow Connections:
     * AWS connection:
-    ![AWS](aws_credentials.png)
+    ![AWS](IMG/aws_credentials.png)
     * Redshift connection
-    ![redshift](redshift.png)
+    ![redshift](IMG/redshift.png)
     
 4. Run `etl_dag` in Airflow UI
