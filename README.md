@@ -23,7 +23,7 @@ The data model consists of tables `immigration`, `us_cities_demographics`, `airp
 ![DAG](IMG/dag.png)
 
 ## Setup
-1. Python3 & Java 8 Required
+1. Python3
 2. Create virtual environment and install dependencies
     ```bash
     $ python3 -m venv venv
